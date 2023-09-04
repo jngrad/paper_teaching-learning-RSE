@@ -1,3 +1,31 @@
+---
+title: "New table"
+geometry: margin=2.5cm
+author:
+  - Heidi Seibold
+  - Florian Goth
+  - Jan Linxweiler
+  - Jan Philipp Thiele
+  - Jeremy Cohen
+  - Renato Alves
+  - Samantha Wittke
+  - Jean-Noël Grad
+  - Fredo Erxleben
+  - Magnus Hagdorn
+  - Harald von Waldow
+  - Moritz Schwarzmeier
+output:
+  pdf_document:
+    citation_package: biblatex
+    toc: true
+    number_sections: true
+bibliography: bibliography.bib
+header-includes:
+    - \usepackage{pdflscape}
+    - \newcommand{\blandscape}{\begin{landscape}}
+    - \newcommand{\elandscape}{\end{landscape}}
+---
+
 #### Project team structures
 
 Project teams working on research software may have different sizes and structures,
@@ -39,21 +67,32 @@ to and support them. We first summarise the meaning of each of the columns in th
 
 
 
+\blandscape
 
 Table: Required Competencies in different organization forms.
 
-+---------------------+---------------------------------------+---------------------------------------+---------------------------------------+
-| Competency          |   *Working as an individual developer*|   *Working with a group of developers*|  *Organization-level support*         |
-|                     +-------------------+-------------------+-------------------+-------------------+-------------------+-------------------+
-|                     |   Locally-based   |    RSE Team-based |   Locally-based   |    RSE Team-based |   Locally-based   |    RSE Team-based |
-+=====================+===================+===================+===================+===================+===================+===================+
-|  DOCBB              | Focus on          |  Likely greater   | -89.2 °C          |                   | -89.2 °C          |                   |
-+---------------------+-------------------+-------------------+-------------------+-------------------+-------------------+-------------------+
+\small
+\renewcommand*{\arraystretch}{1.4}
+
++------------+-----------------------------------------------------------+-----------------------------------------------------------+-----------------------------+
+| Competency | *Working as an individual developer*                      | *Working with a group of developers*                      | *Organization-level support*|
+|            +-----------------------------+-----------------------------+-----------------------------+-----------------------------+                             |
+|            | Locally-based               | RSE Team-based              | Locally-based               | RSE Team-based              |                             |
++============+=============================+=============================+=============================+=============================+=============================+
+| DOCBB      | Focus on getting outputs    | Likely greater focus on     | More opportunity to discuss | Stronger focus on           | Can offer training in core  |
+|            | to support research.        | reusability, documentation, | and share ideas but team    | team-based project          | topics to support           |
+|            | Often time-constrained,     | and best practice but       | members may be self-taught  | management and development  | self-taught/embedded        |
+|            | may be self-taught, less    | potential lack of           | and less aware of key       | methodologies resulting in  | developers. May have        |
+|            | awareness/familiarity       | developer support.          | practices.                  | higher quality, more        | research software           |
+|            | with code quality and       |                             |                             | reusable code.              | guidance/policies           |
+|            | structure best practices.   |                             |                             |                             | that provide advice.        |
+|------------+-----------------------------+-----------------------------+-----------------------------+-----------------------------+-----------------------------+
+
+\elandscape
 
 
 
-
-
+<!--
 <table>
   <thead>
     <tr>
@@ -254,6 +293,7 @@ Table: Required Competencies in different organization forms.
           working effectively in a team.</td>
     </tr>
 </table>
+-->
 
 In the table above, we've looked at how different competencies can be related
 to and handled by researchers and RSEs working in different environments within
