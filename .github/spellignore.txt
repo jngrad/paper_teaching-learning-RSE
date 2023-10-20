@@ -94,6 +94,7 @@ LLMs
 LRZIntroCpp
 LRZModernCpp
 matplotlib
+MATSE
 MOOCs
 MPI
 multicore
@@ -109,7 +110,6 @@ OSI-approved
 Paderborn
 pdf
 PerMedCoE
-Ph
 PRACE
 pre-recorded
 pre-requisite
