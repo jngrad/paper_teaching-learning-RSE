@@ -111,6 +111,7 @@ RDM-RSE
 repos
 reproducibility
 researchology
+researchonomy
 reusability
 RSE
 RSE's
