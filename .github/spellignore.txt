@@ -13,6 +13,7 @@ bioinformatics
 Bioschemas
 Braunschweig
 BSSW
+CASTIEL
 Carpentries
 CarpentriesData
 CarpentriesLibrary
@@ -36,6 +37,7 @@ distributable
 DMP
 DOCBB
 DOMREP
+ECTS
 EduTrain
 EMBL-EBI
 ENCCS
@@ -61,6 +63,7 @@ FutureUniversity
 genomic
 GitHub
 GitLab
+GDPR
 GPL
 habilitation
 HAI
@@ -75,6 +78,7 @@ HTC
 IDEs
 Ing
 ISCB
+JOSS
 JU
 Kanban
 KDL-CAREERS
@@ -133,4 +137,3 @@ US-RSE
 WIP
 Wissenschaft
 Zenodo
--Ing
