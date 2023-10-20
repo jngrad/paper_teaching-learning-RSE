@@ -14,7 +14,9 @@ jobs:
           for file in "*.md"
           do
             # strip citations
-            sed -ri 's/\[@[A-Za-z0-9_ ;@-]+\]//' $file
+            sed -ri 's/\[@[A-Za-z0-9_ ;@-]+\]//g' $file
+            # strip words that escape the spellchecker allowlist
+            sed -i 's/Dr.-Ing.//g' $file
             # latex commands
             grep -P -oh -e "(?<=[\\\\\{])[A-Za-z]+" $file | sort | uniq >> .github/spellignore.txt
             # RSE compositions

@@ -22,6 +22,7 @@ Center
 CHAOSS
 codebase
 CodeRefinery
+Coursera
 CSE
 cybersecurity
 DALIA
@@ -31,6 +32,7 @@ DFG
 DigComp
 DigCompEdu
 DigCompOrg
+DigiFlex
 digitalization
 DigitalSkillsGap
 distributable
@@ -39,6 +41,7 @@ DOCBB
 DOMREP
 ECTS
 EduTrain
+edX
 EMBL-EBI
 ENCCS
 EOR
@@ -98,6 +101,7 @@ multithreading
 NFDI
 NFDI4Ing
 numpy
+OECD
 OER
 OpenScience
 Orithena
@@ -126,12 +130,14 @@ SRU
 SSI
 sth
 SureSoft
+SusTrainable
 SWLC
 swrepo
 swrepos
 SWREPOS
 SysOps
 TeSS
+TrainingMaterial
 UofO
 US-RSE
 WIP

@@ -248,9 +248,8 @@ Qualification badges are another venue, that RSEs to find people with the same t
 
 Short primers on RSE skills, infrastructure and good coding practices
 can be found in field-specific scientific articles and conference proceedings,
-such as [@Roberts1969; @Baxter2006; @Prlic2012; @Leprevost2014; @Wilson2014c;
-@Stodden2014; @Crusoe2016; @Crick2017; @Fehr2021; @Grossfield2022], some of
-which are specifically tailored to group leaders, institutions and scientific
+such as [@Roberts1969; @Baxter2006; @Prlic2012; @Leprevost2014; @Wilson2014c; @Stodden2014; @Crusoe2016; @Crick2017; @Fehr2021; @Grossfield2022],
+some of which are specifically tailored to group leaders, institutions and scientific
 journal editors rather than RSEs [@ChueHong2013; @ChueHong2014; @Katerbow2018; @Strasser2022].
 Scientific journals have the advantage of reaching a large spectrum of
 research scientists at all stages of their career.
