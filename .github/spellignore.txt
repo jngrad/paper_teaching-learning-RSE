@@ -57,6 +57,7 @@ Forschung
 FORTRAN
 franca
 funders
+FutureUniversity
 genomic
 GitHub
 GitLab
@@ -132,3 +133,4 @@ US-RSE
 WIP
 Wissenschaft
 Zenodo
+-Ing

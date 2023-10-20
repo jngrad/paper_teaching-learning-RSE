@@ -226,7 +226,7 @@ The HPC-Akademie [@HPCAkademie] is a good example in the HPC space that offers i
 researchers that want to deepen their HPC skills for research or to practitioners that require them for industrial applications.
 Specialising the centres to certain skill sets enables them to effectively reach out into the sciences with their brand.
 With the existence of these resources we believe that their acceptance gradually increases over time.
-The tasks of these centres is facilitated by reusing the work of initiatives like edutrain [@EDUTRAIN] and platforms like DALIA [@DALIA].
+The tasks of these centres is facilitated by reusing the work of initiatives like EduTrain [@EDUTRAIN] and platforms like DALIA [@DALIA].
 Naturally, other existing structures outside of academia mentioned before like the Carpentries [@Carpentries] can be nicely integrated
 and offered to a broad audience on a regular basis.
 

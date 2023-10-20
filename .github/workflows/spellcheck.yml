@@ -15,8 +15,8 @@ jobs:
         run: |
           for file in "*.md"
           do
-            # references
-            grep -P -oh -e "(?<=@)[A-Za-z-]+" $file | sort | uniq >> .github/spellignore.txt
+            # strip citations
+            sed -ri 's/\[@[A-Za-z0-9_ ;@-]+\]//' $file
             # latex commands
             grep -P -oh -e "(?<=[\\\\\{])[A-Za-z]+" $file | sort | uniq >> .github/spellignore.txt
             # RSE compositions
