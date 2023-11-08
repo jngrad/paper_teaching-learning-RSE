@@ -12,8 +12,8 @@ jobs:
         run: |
           sudo apt-get update && sudo apt-get install -y --no-install-recommends \
             texlive pandoc texlive-bibtex-extra texlive-fonts-recommended \
-            texlive-xetex lmodern biber latexmk python3 python3-yaml \
-            xz-utils make gpg-agent
+            texlive-xetex lmodern fonts-linuxlibertine biber latexmk \
+            python3 python3-yaml xz-utils make gpg-agent
           python3 -m pip install -r ${{ env.DIR }}/requirements.txt
       - name: Configure LaTeX environment
         working-directory: ${{ env.DIR }}
