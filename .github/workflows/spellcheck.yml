@@ -33,7 +33,7 @@ jobs:
             yq '.authors[] | .lastName' contributors.yml | sed 's/ /\n/g; /null/d' >> .github/spellignore.txt
             yq '.authors[] | .firstName' contributors.yml | sed 's/ /\n/g; /null/d' >> .github/spellignore.txt
             yq '.authors[] | .suffixName' contributors.yml | sed 's/ /\n/g; /null/d' >> .github/spellignore.txt
-      - uses: eschercloudai/md-spellcheck-action@v0.36.0
+      - uses: eschercloudai/md-spellcheck-action@0.36.0
         with:
           files-to-check: "competencies.md"
           files-to-exclude: "CONTRIBUTING.md\nREADME.md"
