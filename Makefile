@@ -39,7 +39,7 @@ all: $(objects)
 		makeglossaries "${@:.pdf=}"; \
 	fi
 	latexmk \
-	    -pdflatex -shell-escape -bibtex -halt-on-error \
+	    -pdflatex -shell-escape -bibtex -halt-on-error -Werror \
 	    -jobname="${@:.pdf=}" -cd "build/${@:.pdf=}.tex"
 	@mv "build/${@}" "${@}"
 
