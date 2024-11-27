@@ -31,7 +31,7 @@ jobs:
           git config --local submodule.recurse true
       - name: pandoc compile
         working-directory: ${{ env.DIR }}
-        run: source ${{ env.DIR }}/venv/bin/activate && make all
+        run: source ${{ env.DIR }}/venv/bin/activate && make all && cat build/competencies.tex
       - name: move
         run: mkdir -p github_artifacts && mv ${{ env.DIR }}/*.pdf ./github_artifacts/
       - name: Upload pdf as artifact
